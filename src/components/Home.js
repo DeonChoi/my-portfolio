@@ -7,7 +7,7 @@ class Home extends React.Component {
             <Row id='home' className='text-white d-flex flex align-items-end w-100'>
                 
                 <div className='overlay-layer'></div>
-                <Col xl={{span: 10, offset: 1}} lg={{span: 10, offset: 1}} md={{span: 10, offset: 1}} sm={{span: 10, offset: 1}} xs={{span: 10, offset: 1}} className='primary home-container d-flex flex-column justify-content-end text-right'>
+                <Col xl={{span: 11, offset: 1}} lg={{span: 11, offset: 1}} md={{span: 11, offset: 1}} sm={{span: 11, offset: 1}} xs={{span: 11, offset: 1}} className='primary home-container d-flex flex-column justify-content-end text-right'>
                     <p className='home-title'>Deon Choi</p>
                     <p className='home-description'>
                         Dodgers Fan
