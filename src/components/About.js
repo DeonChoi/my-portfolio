@@ -15,17 +15,15 @@ class About extends React.Component {
         return (
             <Row className='text-white d-flex align-items-end w-100' id='about'>
                 <div className='overlay-layer'></div>
-                {/*  xl={{span: 10, offset: 1}} lg={{span: 10, offset: 1}} md={{span: 10, offset: 1}} sm={{span: 10, offset: 1}} xs={{span: 11, offset: 1}}  */}
-                <Col xl={{span: 9, offset: 3}} lg={{span: 9, offset: 3}} md={{span: 11, offset: 1}} sm={{span: 10, offset: 2}} xs={{span: 10, offset: 2}} className='primary font-weight-bold about-container d-flex flex-column justify-content-end text-right'>
+                <Col xl={{span: 8, offset: 4}} lg={{span: 9, offset: 3}} md={{span: 11, offset: 1}} sm={{span: 10, offset: 2}} xs={{span: 10, offset: 2}} className='primary font-weight-bold about-container d-flex flex-column justify-content-end text-right'>
                     <p className='about-title'>About Me</p>
                
                     <p className='about-description text-justify'>
-                        Hi, my name is Deon Choi. I recently graduated from <a href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
+                        Hi, my name is Deon Choi. I recently graduated from <a className='about-link' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
-                        It started with a few books on <a href='https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=pd_sbs_14_t_0/135-2789733-7969725?_encoding=UTF8&pd_rd_i=1118907442&pd_rd_r=0584ec14-45bb-46ba-a924-de3fcc4a45fa&pd_rd_w=bfKxr&pd_rd_wg=guwqh&pf_rd_p=5cfcfe89-300f-47d2-b1ad-a4e27203a02a&pf_rd_r=KZ5DTE2WNT09VGER4463&psc=1&refRID=KZ5DTE2WNT09VGER4463' target='_blank' rel="noopener noreferrer">HTML, CSS, JavaScript and jQuery</a> 
-                        and eventually I made my way over to <span>Sass</span>, <span>Bootstrap</span>, <span>React</span>, and <span>Redux</span>.
+                        It started with a few books on <a className='about-link' href='https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=pd_sbs_14_t_0/135-2789733-7969725?_encoding=UTF8&pd_rd_i=1118907442&pd_rd_r=0584ec14-45bb-46ba-a924-de3fcc4a45fa&pd_rd_w=bfKxr&pd_rd_wg=guwqh&pf_rd_p=5cfcfe89-300f-47d2-b1ad-a4e27203a02a&pf_rd_r=KZ5DTE2WNT09VGER4463&psc=1&refRID=KZ5DTE2WNT09VGER4463' target='_blank' rel="noopener noreferrer">HTML, CSS, JavaScript and jQuery</a> and eventually I made my way over to <span>Sass</span>, <span>Bootstrap</span>, <span>React</span>, and <span>Redux</span>.
                         <br></br>
-                        I currently write most of my code with React paired with Bootstrap for styling and layout purposes. In fact, this website was made almost entirely using <a href='https://react-bootstrap.github.io/' target='_blank' rel="noopener noreferrer">React Bootstrap</a>.
+                        I currently write most of my code with React paired with Bootstrap for styling and layout purposes. In fact, this website was made almost entirely using <a className='about-link' href='https://react-bootstrap.github.io/' target='_blank' rel="noopener noreferrer">React Bootstrap</a>.
                         <br></br>
                         Aside from web development, I enjoy fitness, food, watching, and playing sports. I'm a die-hard Dodgers, Lakers, and Rams fan. I know it's been a disappointing decade, please don't remind me. I also love watching soccer!
                         <br></br>

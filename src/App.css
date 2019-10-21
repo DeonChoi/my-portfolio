@@ -14,9 +14,8 @@
 #projects{
   min-height: 100vh;
   width: 100vw;
-  background-image: url('./images/nyc.jpg');
+  background-image: url('./images/nyc_skyline.jpg');
   background-size: 100% 100%;
-  color: black;
 }
 #contact{
   height: auto;
@@ -26,6 +25,7 @@
 #navigation {
   opacity: 1;
   font-weight: 500;
+  color: white;
 }
 
 /* content containers within each component */
@@ -58,6 +58,14 @@
 }
 
 /* WITHIN THE ABOUT COMPONENTS */
+.about-link{
+  color: white!important;
+  text-decoration: underline!important;
+  font-weight: bold;
+}
+.about-link:hover{
+  background-color: black;
+}
 .skill-icon:hover{ 
   animation: pulse 1s infinite;
   animation-timing-function: linear;   
@@ -69,8 +77,13 @@
 }
 
 /* WITHIN THE PROJECTS COMPONENT */
+.project-title {
+  color: black;
+  /* padding-right: 100px; */
+}
 .project-tile {
-  padding: 25px;
+  color: white;
+  padding: 50px;
 }
 .project-image{
   transition: transform 1s;
@@ -104,9 +117,9 @@
   margin:0!important;
 }
 
-/* general span elements, not component specific */
+/* general elements, not necessarily component specific */
 span{
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /* media queries */
@@ -334,6 +347,15 @@ span{
 }
 
 @media all and (min-width: 1200px) { /* screen size greater than 1200px */
+  .overlay-layer{
+    background-color: rgba(0, 0, 0, 0.075);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .home-container {
     font-size: 55px;
     font-weight: 300;
@@ -351,7 +373,7 @@ span{
   }
   .project-title {
     padding-top: 5%;
-    font-size: 50px;
+    font-size: 75px;
   }
   .project-image {
     height: 350px;
@@ -379,7 +401,7 @@ span{
   }
   .project-title {
     padding-top: 2%;
-    font-size: 50px;
+    font-size: 70px;
   }
   .project-image {
     height: 450px;

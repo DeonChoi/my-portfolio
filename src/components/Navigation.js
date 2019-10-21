@@ -14,7 +14,7 @@ class Navigation extends React.Component {
     listenScrollEvent(e) {
         let height=window.innerHeight;
         if (window.scrollY >= height*2) {
-          this.setState({color: 'black'})
+          this.setState({color: 'white'})
         } else {
           this.setState({color: 'white'})
         };
@@ -26,7 +26,7 @@ class Navigation extends React.Component {
       
     render () {
         return (
-            <Navbar id='navigation' fixed='top' className='justify-content-end'>
+            <Navbar id='navigation' fixed='top' className='justify-content-start'>
                 <Navbar.Brand href='#home' style={{color:this.state.color}}>Deon Choi</Navbar.Brand>
                 <Nav>
                     <Nav.Link href='#about' style={{color:this.state.color}}>About</Nav.Link>
