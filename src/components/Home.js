@@ -10,11 +10,12 @@ class Home extends React.Component {
                 <Col xl={{span: 11, offset: 1}} lg={{span: 11, offset: 1}} md={{span: 11, offset: 1}} sm={{span: 11, offset: 1}} xs={{span: 11, offset: 1}} className='primary home-container d-flex flex-column justify-content-end text-right'>
                     <p className='home-title'>Deon Choi</p>
                     <p className='home-description'>
-                        Dodgers Fan
-                        <br></br>
+                        {/* Dodgers Fan
+                        <br></br> */}
                         Front-End Developer
                         <br></br>
-                        San Francisco Bay Area Native
+                        San Francisco Bay Area
+                        {/* San Francisco Bay Area Native */}
                     </p>
                 </Col>
                 

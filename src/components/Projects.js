@@ -26,7 +26,7 @@ class Projects extends React.Component {
                             <a href='https://deonchoi.github.io/weather-app/' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={WeatherImage} alt='First project'/>
                             </a>
-                            <p className='font-weight-bold text-center'>Weather App</p>
+                            <p className='font-weight-bold text-center project-name'>Weather App</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
                                 <a href='https://github.com/DeonChoi/weather-app' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
@@ -40,7 +40,7 @@ class Projects extends React.Component {
                             <a href='https://deonchoi.github.io/random-quote-machine/' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={RandomQuoteMachineImage} alt='Second project'/>
                             </a>
-                            <p className='font-weight-bold text-center'>Random Quote Machine</p>
+                            <p className='font-weight-bold text-center project-name'>Random Quote Machine</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
                                 <a href='https://github.com/DeonChoi/random-quote-machine' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
@@ -55,7 +55,7 @@ class Projects extends React.Component {
                             <a href='https://deonchoi.github.io/tic-tac-toe' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={TicTacToeImage} alt='Third project'/>
                             </a>
-                            <p className='font-weight-bold text-center'>Tic-Tac-Toe</p>
+                            <p className='font-weight-bold text-center project-name'>Tic-Tac-Toe</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
                                 <a href='https://github.com/DeonChoi/tic-tac-toe' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
@@ -70,7 +70,7 @@ class Projects extends React.Component {
                             <a href='https://deonchoi.github.io/joke-cards' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={JokeCardsImage} alt='Fourth project'/>
                             </a>
-                            <p className='font-weight-bold text-center'>Random Quote Machine</p>
+                            <p className='font-weight-bold text-center project-name'>Random Quote Machine</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
                                 <a href='https://github.com/DeonChoi/joke-cards' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
