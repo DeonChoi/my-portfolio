@@ -19,7 +19,7 @@ class About extends React.Component {
                     <p className='about-title'>About Me</p>
                
                     <p className='about-description text-justify'>
-                        Hi, my name is Deon Choi. I recently graduated from <a className='about-link' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
+                        Hi, my name is Deon Choi. I graduated from <a className='about-link' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
                         It started with a few books on <a className='about-link' href='https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=pd_sbs_14_t_0/135-2789733-7969725?_encoding=UTF8&pd_rd_i=1118907442&pd_rd_r=0584ec14-45bb-46ba-a924-de3fcc4a45fa&pd_rd_w=bfKxr&pd_rd_wg=guwqh&pf_rd_p=5cfcfe89-300f-47d2-b1ad-a4e27203a02a&pf_rd_r=KZ5DTE2WNT09VGER4463&psc=1&refRID=KZ5DTE2WNT09VGER4463' target='_blank' rel="noopener noreferrer">HTML, CSS, JavaScript and jQuery</a> and eventually I made my way over to <span>Sass</span>, <span>Bootstrap</span>, <span>React</span>, and <span>Redux</span>.
                         <br></br>
