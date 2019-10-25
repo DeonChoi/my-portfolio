@@ -147,7 +147,7 @@ span{
 /* media queries */
 @media all and (max-width: 576px) { /* screen size until 576px */ 
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.100);
+    background-color: rgba(0, 0, 0, 0.000);
     position:absolute;
     top: 100vh;
     left: 0;
@@ -209,7 +209,7 @@ span{
 
 @media all and (min-width: 576px) { /* screen size greater than 576px */
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.100);
+    background-color: rgba(0, 0, 0, 0.000);
     position: absolute;
     top: 100vh;
     left: 0;
@@ -269,7 +269,7 @@ span{
 
 @media all and (min-width: 768px) { /* screen size greater than 768px */
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.100);
+    background-color: rgba(0, 0, 0, 0.000);
     position: absolute;
     top: 100vh;
     left: 0;
@@ -319,7 +319,7 @@ span{
 
 @media all and (min-width: 992px) { /* screen size greater than 992px */
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.075);
+    background-color: rgba(0, 0, 0, 0.000);
     position: absolute;
     top: 100vh;
     left: 0;
@@ -372,7 +372,7 @@ span{
 
 @media all and (min-width: 1200px) { /* screen size greater than 1200px */
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.030);
+    background-color: rgba(0, 0, 0, 0.000);
     position: absolute;
     top: 100vh;
     left: 0;
@@ -420,7 +420,7 @@ span{
 
 @media all and (min-width: 1400px) { /* screen size greater than 1400px */
   .overlay-layer{
-    background-color: rgba(0, 0, 0, 0.020);
+    background-color: rgba(0, 0, 0, 0.000);
     position: absolute;
     top: 100vh;
     left: 0;
