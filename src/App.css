@@ -1,3 +1,7 @@
+.row {
+  margin:0px!important;
+}
+
 /* COMPONENTS */
 #home{
   height: 100vh;
@@ -11,7 +15,7 @@
   width: 100vw;
   background-image: url('./images/BackgroundImages/cherryblossomsdc.jpg');
   background-size: cover;
-  background-position: 60% 40%;
+  background-position: 65% 40%;
 }
 #projects{
   min-height: 100vh;
@@ -42,8 +46,6 @@
   bottom: 3%;
 }
 .project-container {
-  padding-left: 5%;
-  padding-right: 5%;
 }
 .contact-container {
   margin: 0!important;
@@ -101,7 +103,6 @@
 }
 .project-tile {
   color: white;
-  padding: 50px;
 }
 .project-image{
   transition: transform 1s;
@@ -183,6 +184,9 @@ span{
     padding-top: 5%;
     font-size: 25px;
   }
+  .project-tile {
+    padding: 20px;
+  }
   .project-image {
     height: 175px;
     width: 250px;
@@ -243,6 +247,9 @@ span{
     padding-top: 5%;
     font-size: 35px;
   }
+  .project-tile {
+    padding: 20px;
+  }
   .project-image {
     height: 200px;
     width: 300px;
@@ -296,6 +303,9 @@ span{
     padding-top: 5%;
     font-size: 40px;
   }
+  .project-tile {
+    padding: 30px;
+  }
   .project-image {
     height: 225px;
     width: 350px;
@@ -348,6 +358,9 @@ span{
   .project-title {
     padding-top: 5%;
     font-size: 45px;
+  }
+  .project-tile {
+    padding: 50px;
   }
   .project-image {
     height: 300px;

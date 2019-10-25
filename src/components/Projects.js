@@ -14,14 +14,14 @@ class Projects extends React.Component {
                 <div className='overlay-layer'></div>
                 <Col className='d-flex flex-column project-container primary'>
                     
-                    <Row className='justify-content-end project-title '>
+                    <Row className='justify-content-end project-title w-100'>
                         <Col xl={3} lg={3} md={3} sm={3} xs={4}>
                             <p className='project-title font-weight-bold'>Projects</p>
                         </Col>
                         
                     </Row>
                     
-                    <Row className='d-flex flex-wrap align-items-center justify-content-center'> 
+                    <Row className='d-flex align-items-center justify-content-center w-100'> 
                         <div className='project-tile'>
                             <a href='https://deonchoi.github.io/weather-app/' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={WeatherImage} alt='First project'/>
