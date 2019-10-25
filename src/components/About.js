@@ -1,14 +1,14 @@
 import React from 'react';
-import DodgersIcon from '../images/dodgers.png';
 import { Row, Col } from 'react-bootstrap';
-import HTMLIcon from '../images/html5.png';
-import CSSIcon from '../images/css3.png';
-import SASSIcon from '../images/sass.png';
-import JavaScriptIcon from '../images/javascript.png';
-import jQueryIcon from '../images/jquery.png';
-import ReactIcon from '../images/react.png';
-import BootStrap4Icon from '../images/bootstrap.png';
-import ReduxIcon from '../images/redux.png';
+import HTMLIcon from '../images/AboutComponent/html5.png';
+import CSSIcon from '../images/AboutComponent/css3.png';
+import SASSIcon from '../images/AboutComponent/sass.png';
+import JavaScriptIcon from '../images/AboutComponent/javascript.png';
+import jQueryIcon from '../images/AboutComponent/jquery.png';
+import ReactIcon from '../images/AboutComponent/react.png';
+import BootStrap4Icon from '../images/AboutComponent/bootstrap.png';
+import ReduxIcon from '../images/AboutComponent/redux.png';
+import DodgersIcon from '../images/AboutComponent/dodgers.png';
 
 class About extends React.Component {
     render () {

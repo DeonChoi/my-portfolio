@@ -2,21 +2,21 @@
 #home{
   height: 100vh;
   width: 100vw;
-  background-image: url('./images/goldengatebridge.jpg');
+  background-image: url('./images/BackgroundImages/goldengatebridge.jpg');
   background-size: cover;
   background-position: center center;
 }
 #about{
   min-height: 100vh;
   width: 100vw;
-  background-image: url('./images/cherryblossomsdc.jpg');
+  background-image: url('./images/BackgroundImages/cherryblossomsdc.jpg');
   background-size: cover;
   background-position: 60% 40%;
 }
 #projects{
   min-height: 100vh;
   width: 100vw;
-  background-image: url('./images/nyc_skyline.jpg');
+  background-image: url('./images/BackgroundImages/nyc_skyline.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -133,6 +133,10 @@
   border:0!important;
   padding:0!important;
   margin:0!important;
+}
+.resume-img {
+  height: 100%;
+  width: 100%;
 }
 
 /* general elements, not necessarily component specific */
@@ -413,6 +417,7 @@ span{
     width: 90px;
   }
 }
+
 @media all and (min-width: 1400px) { /* screen size greater than 1400px */
   .overlay-layer{
     background-color: rgba(0, 0, 0, 0.020);
@@ -423,6 +428,7 @@ span{
     height: 100%;
   }
 }
+
 @media all and (min-width: 1800px) { /* screen size greater than 1800px */
   .overlay-layer{
     background-color: rgba(0, 0, 0, 0.0);

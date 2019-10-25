@@ -1,9 +1,9 @@
 import React from 'react';
-import JokeCardsImage from '../images/JokeCards.png';
-import RandomQuoteMachineImage from '../images/RandomQuoteMachine.png';
-import WeatherImage from '../images/Weather.png';
-import GitHubIcon from '../images/github_light.png';
-import TicTacToeImage from '../images/TicTacToe.png';
+import GitHubIcon from '../images/ProjectsComponent/github_light.png';
+import RandomQuoteMachineImage from '../images/ProjectsComponent/RandomQuoteMachine.png';
+import WeatherImage from '../images/ProjectsComponent/Weather.png';
+import TicTacToeImage from '../images/ProjectsComponent/TicTacToe.png';
+import AddressBookImage from '../images/ProjectsComponent/AddressBook.png';
 import { Row, Col, Badge } from 'react-bootstrap';
 
 class Projects extends React.Component {
@@ -60,24 +60,21 @@ class Projects extends React.Component {
                                 <a href='https://github.com/DeonChoi/tic-tac-toe' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-                                <Badge variant='light'>HTML</Badge>
                                 <Badge variant='light'>CSS</Badge>
                                 <Badge variant='light'>React</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
                             </Row>
                         </div>
                         <div className='project-tile'>
-                            <a href='https://deonchoi.github.io/joke-cards' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={JokeCardsImage} alt='Fourth project'/>
+                            <a href='https://deonchoi.github.io/address-book/' target='_blank' rel="noopener noreferrer">
+                                <img className='project-image ' src={AddressBookImage} alt='Fourth project'/>
                             </a>
-                            <p className='font-weight-bold text-center project-name'>Random Quote Machine</p>
+                            <p className='font-weight-bold text-center project-name'>Address Book</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
-                                <a href='https://github.com/DeonChoi/joke-cards' target='_blank' rel="noopener noreferrer">
+                                <a href='https://github.com/DeonChoi/address-book' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-                                <Badge variant='light'>HTML</Badge>
-                                <Badge variant='light'>CSS</Badge>
-                                <Badge variant='light'>React</Badge>
+=                                <Badge variant='light'>React</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
                             </Row>
                         </div>

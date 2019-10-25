@@ -10,14 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-  /* font-family: 'Lexend Deca', sans-serif; */
 }
 /* prevents white space bounce on end of scroll */
 html, body {
   overscroll-behavior: none;
-  
 }
