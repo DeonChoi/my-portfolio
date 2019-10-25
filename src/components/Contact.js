@@ -2,7 +2,7 @@ import React from 'react';
 import GmailIcon from '../images/ContactComponent/gmail.png';
 import LinkedInIcon from '../images/ContactComponent/linkedin.png';
 import GitHubIcon from '../images/ContactComponent/github_dark.png';
-import MyResume from '../images/ContactComponent/myresume.png';
+import MyResume from '../images/ContactComponent/DeonChoiResume.png';
 import { Row, Col, Button, Modal } from 'react-bootstrap';
 
 class Contact extends React.Component {

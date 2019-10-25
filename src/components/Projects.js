@@ -31,7 +31,6 @@ class Projects extends React.Component {
                                 <a href='https://github.com/DeonChoi/weather-app' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-                                <Badge variant='light'>HTML</Badge>
                                 <Badge variant='light'>React</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
                             </Row>
@@ -45,7 +44,6 @@ class Projects extends React.Component {
                                 <a href='https://github.com/DeonChoi/random-quote-machine' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-                                <Badge variant='light'>HTML</Badge>
                                 <Badge variant='light'>CSS</Badge>
                                 <Badge variant='light'>React</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
@@ -74,7 +72,7 @@ class Projects extends React.Component {
                                 <a href='https://github.com/DeonChoi/address-book' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-=                                <Badge variant='light'>React</Badge>
+                                <Badge variant='light'>React</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
                             </Row>
                         </div>
