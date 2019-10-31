@@ -45,8 +45,6 @@
   right: 3%;
   bottom: 3%;
 }
-.project-container {
-}
 .contact-container {
   margin: 0!important;
   padding: 5%!important;
@@ -138,11 +136,6 @@
 .resume-img {
   height: 100%;
   width: 100%;
-}
-
-/* general elements, not necessarily component specific */
-span{
-  font-weight: bold;
 }
 
 /* media queries */
