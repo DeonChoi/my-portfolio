@@ -22,7 +22,7 @@
   width: 100vw;
   background-image: url('./images/BackgroundImages/nyc_skyline.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: 57.5% center;
 }
 #contact{
   height: auto;
