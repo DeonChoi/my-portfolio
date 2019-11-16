@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHubIcon from '../images/ProjectsComponent/github_light.png';
-import RandomQuoteMachineImage from '../images/ProjectsComponent/RandomQuoteMachine.png';
+import PhraseHunterImage from '../images/ProjectsComponent/PhraseHunter.png';
 import WeatherImage from '../images/ProjectsComponent/Weather.png';
 import TicTacToeImage from '../images/ProjectsComponent/TicTacToe.png';
 import AddressBookImage from '../images/ProjectsComponent/AddressBook.png';
@@ -36,17 +36,17 @@ class Projects extends React.Component {
                             </Row>
                         </div>
                         <div className='project-tile'>
-                            <a href='https://deonchoi.github.io/random-quote-machine/' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={RandomQuoteMachineImage} alt='Second project'/>
+                            <a href='https://deonchoi.github.io/OOPgameShowApp/' target='_blank' rel="noopener noreferrer">
+                                <img className='project-image ' src={PhraseHunterImage} alt='Second project'/>
                             </a>
-                            <p className='font-weight-bold text-center project-name'>Random Quote Machine</p>
+                            <p className='font-weight-bold text-center project-name'>Phrase Hunter</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
-                                <a href='https://github.com/DeonChoi/random-quote-machine' target='_blank' rel="noopener noreferrer">
+                                <a href='https://github.com/DeonChoi/OOPgameShowApp' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
+                                <Badge variant='light'>HTML</Badge>
                                 <Badge variant='light'>CSS</Badge>
-                                <Badge variant='light'>React</Badge>
-                                <Badge variant='light'>Bootstrap</Badge>
+                                <Badge variant='light'>jQuery</Badge>
                             </Row>
                         </div>
                         <div className='project-tile'>
