@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8b1cff2127220c832b7eef7a5f264d9",
+    "revision": "8b6ba07e2b37d31d72c28781722b9219",
     "url": "/my-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "b0ea2ea6d98be2eb0125",
+    "revision": "4cc779c932b69059b17c",
     "url": "/my-portfolio/static/css/main.a23019ac.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.fca4b3d9.chunk.js"
   },
   {
-    "revision": "b0ea2ea6d98be2eb0125",
-    "url": "/my-portfolio/static/js/main.73b0fcfe.chunk.js"
+    "revision": "4cc779c932b69059b17c",
+    "url": "/my-portfolio/static/js/main.be2a2493.chunk.js"
   },
   {
     "revision": "2ab7c54528df7e89e2e7",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/DeonChoiResume.195da2b8.png"
   },
   {
-    "revision": "c5546d1e6094f3e244a64f60da5b2034",
-    "url": "/my-portfolio/static/media/RandomQuoteMachine.c5546d1e.png"
+    "revision": "7cb318fb3d697c09287bed331bb06204",
+    "url": "/my-portfolio/static/media/PhraseHunter.7cb318fb.png"
   },
   {
     "revision": "b5b71d008d8a49d92e2019aaff057ecb",
