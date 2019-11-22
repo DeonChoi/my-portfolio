@@ -13,7 +13,11 @@
 #about{
   min-height: 100vh;
   width: 100vw;
-  background-image: url('./images/BackgroundImages/cherryblossomsdc.jpg');
+  background-image: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05)
+  ),url('./images/BackgroundImages/cherryblossomsdc.jpg');
   background-size: cover;
   background-position: 65% 35%;
 }
@@ -63,7 +67,7 @@
 }
 .about-description {
   font-weight: 750;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 3px 3px 15px #000000;
 }
 .project-title {
   text-shadow: 2px 2px 5px #000000;
@@ -88,7 +92,7 @@
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(0.8); }
+  50% { transform: scale(0.9); }
   100% { transform: scale(1); }
 }
 
@@ -119,14 +123,14 @@
 
 /* WITHIN THE CONTACT COMPONENTS */
 .contact-icon:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .resume-img-preview:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .resume-button{
   border:0!important;
