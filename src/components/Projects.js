@@ -25,7 +25,7 @@ class Projects extends React.Component {
 
                         <div className='project-tile'>
                             <a href='https://deonchoi.github.io/flix-app' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={FlixImage} alt='First project'/>
+                                <img className='project-image ' src={FlixImage} alt='flix project screenshot'/>
                             </a>
                             <p className='font-weight-bold text-center project-name'>Flix</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
@@ -40,7 +40,7 @@ class Projects extends React.Component {
 
                         <div className='project-tile'>
                             <a href='https://deonchoi.github.io/recipe-app/' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={DelishImage} alt='Second project'/>
+                                <img className='project-image ' src={DelishImage} alt='delish project screenshot'/>
                             </a>
                             <p className='font-weight-bold text-center project-name'>Delish</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
@@ -55,7 +55,7 @@ class Projects extends React.Component {
                         
                         <div className='project-tile'>
                             <a href='https://deonchoi.github.io/OOPgameShowApp/' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={PhraseHunterImage} alt='Third project'/>
+                                <img className='project-image ' src={PhraseHunterImage} alt='phrase hunter project screenshot'/>
                             </a>
                             <p className='font-weight-bold text-center project-name'>Phrase Hunter</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
@@ -70,7 +70,7 @@ class Projects extends React.Component {
 
                         <div className='project-tile'>
                             <a href='https://deonchoi.github.io/weather-app/' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={WeatherImage} alt='Fourth project'/>
+                                <img className='project-image ' src={WeatherImage} alt='weather app screenshot'/>
                             </a>
                             <p className='font-weight-bold text-center project-name'>Weather App</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
