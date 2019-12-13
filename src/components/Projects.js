@@ -32,10 +32,10 @@ class Projects extends React.Component {
                                 <a href='https://github.com/DeonChoi/weather-app' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
-                                <Badge variant='light'>Node.js</Badge>
-                                <Badge variant='light'>Express.js</Badge>
                                 <Badge variant='light'>MongoDB</Badge>
+                                <Badge variant='light'>Express.js</Badge>
                                 <Badge variant='light'>React.js</Badge>
+                                <Badge variant='light'>Node.js</Badge>
                                 <Badge variant='light'>Bootstrap</Badge>
                             </Row>
                         </div>
