@@ -23,10 +23,10 @@ class About extends React.Component {
                         I graduated from <a className='about-link' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
                         <br></br>
-                        I enjoy creating most of my applications using React.js and Bootstrap and because my goal is to master the <a className='about-link' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer">MERN</a> stack, I am currently learning to use Node.js, Express.js, and MongoDB.
+                        I enjoy creating most of my applications using the <a className='about-link' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer">MERN</a> stack.
                         I still have an enormous amount to learn, but I'm incredibly excited to continue down this path into becoming an excellent developer.
                         <br></br>
-                        Aside from web development, I enjoy fitness, food, watching, and playing sports. I'm a Lakers, Rams/Chargers, and die-hard Dodgers fan - I know it's been a disappointing decade, please don't remind me.
+                        Aside from web development, I enjoy fitness, food, watching, and playing sports. I'm a Lakers, Rams/Chargers, and die-hard Dodgers fan - all very disappointing.
                     </p>
                     <Row className='d-flex justify-content-around'>
                         <img className='skill-icon' src={HTMLIcon} alt='HTML Icon'/>
