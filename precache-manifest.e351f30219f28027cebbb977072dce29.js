@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "561cfb41e4e1522ec927875544e098e8",
+    "revision": "282348eaede6fc1aa3164a0bde341770",
     "url": "/index.html"
   },
   {
-    "revision": "41fdf3ca0d4c4b3e922c",
+    "revision": "7ffcdf0a24a224716809",
     "url": "/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "f070d28add70daa7ce6e",
-    "url": "/static/css/main.295ae5a1.chunk.css"
+    "revision": "56892151ce6f5450cdfd",
+    "url": "/static/css/main.3ac1dca7.chunk.css"
   },
   {
-    "revision": "41fdf3ca0d4c4b3e922c",
-    "url": "/static/js/2.19c340ee.chunk.js"
+    "revision": "7ffcdf0a24a224716809",
+    "url": "/static/js/2.51d23390.chunk.js"
   },
   {
-    "revision": "f070d28add70daa7ce6e",
-    "url": "/static/js/main.612e5cbc.chunk.js"
+    "revision": "56892151ce6f5450cdfd",
+    "url": "/static/js/main.f710fc5f.chunk.js"
   },
   {
     "revision": "d37e5e5e9932e30ff6cf",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PhraseHunter.7cb318fb.png"
   },
   {
-    "revision": "d69263da8b9973b54e729f460adc8821",
-    "url": "/static/media/Weather.d69263da.png"
+    "revision": "6748e5eab742c57a76ca4e1da2e9c716",
+    "url": "/static/media/ShrinkURL.6748e5ea.png"
   },
   {
     "revision": "584d9f322f08684db8ff2217731e474f",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d4f7cd8a59bfce471f7431385b3935c",
     "url": "/static/media/dodgers.3d4f7cd8.png"
+  },
+  {
+    "revision": "d638bd34b425dec39792d4a81189eddf",
+    "url": "/static/media/expressJS.d638bd34.png"
   },
   {
     "revision": "56fe8aa902f49bead518a9c6439325b4",
@@ -82,6 +86,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7d17e7c8cca6665d64947e16058b034",
     "url": "/static/media/linkedin.a7d17e7c.png"
+  },
+  {
+    "revision": "ce8540156af5e6c1b72af8d9a6abf3cf",
+    "url": "/static/media/mongoDB.ce854015.png"
+  },
+  {
+    "revision": "313acec2dec25346ce03acdc6b2a3ef5",
+    "url": "/static/media/nodeJS.313acec2.png"
   },
   {
     "revision": "4ccd607c949a4e8d0701d4c22f0b5609",
