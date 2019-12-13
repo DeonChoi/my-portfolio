@@ -24,12 +24,12 @@ class Projects extends React.Component {
                     <Row className='d-flex align-items-center justify-content-center w-100'> 
                         
                         <div className='project-tile'>
-                            <a href='https://deonchoi.github.io/weather-app/' target='_blank' rel="noopener noreferrer">
+                            <a href='https://shrinkurlapp.herokuapp.com/api/' target='_blank' rel="noopener noreferrer">
                                 <img className='project-image ' src={ShrinkURLImage} alt='shrinkURL screenshot'/>
                             </a>
                             <p className='font-weight-bold text-center project-name'>shrinkURL</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
-                                <a href='https://github.com/DeonChoi/weather-app' target='_blank' rel="noopener noreferrer">
+                                <a href='https://github.com/DeonChoi/shrinkURL' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
                                 </a>
                                 <Badge variant='light'>MongoDB</Badge>
