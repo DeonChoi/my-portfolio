@@ -7,6 +7,9 @@ import JavaScriptIcon from '../images/AboutComponent/javascript.png';
 import jQueryIcon from '../images/AboutComponent/jquery.png';
 import ReactIcon from '../images/AboutComponent/react.png';
 import BootStrap4Icon from '../images/AboutComponent/bootstrap.png';
+import NodeJsIcon from '../images/AboutComponent/nodeJS.png';
+import ExpressJsIcon from '../images/AboutComponent/expressJS.png';
+import MongoDbIcon from '../images/AboutComponent/mongoDB.png';
 // import ReduxIcon from '../images/AboutComponent/redux.png';
 import DodgersIcon from '../images/AboutComponent/dodgers.png';
 
@@ -36,6 +39,9 @@ class About extends React.Component {
                         <img className='skill-icon' src={SASSIcon} alt='SASS Icon'/>
                         <img className='skill-icon' src={BootStrap4Icon} alt='Bootstrap 4 Icon'/>
                         <img className='skill-icon' src={ReactIcon} alt='React Icon'/>
+                        <img className='skill-icon' src={NodeJsIcon} alt='Node JS Icon'/>
+                        <img className='skill-icon' src={ExpressJsIcon} alt='Express JS Icon'/>
+                        <img className='skill-icon' src={MongoDbIcon} alt='Mongo DB Icon'/>
                         {/* <img className='skill-icon' src={ReduxIcon} alt='Redux Icon'/> */}
                         <img className='about-icon skill-icon' src={DodgersIcon} alt='Dodgers Icon'/>
                     </Row>
