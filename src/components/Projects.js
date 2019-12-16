@@ -25,9 +25,9 @@ class Projects extends React.Component {
                         
                         <div className='project-tile'>
                             <a href='https://shrinkurlapp.herokuapp.com/api/' target='_blank' rel="noopener noreferrer">
-                                <img className='project-image ' src={ShrinkURLImage} alt='shrinkURL screenshot'/>
+                                <img className='project-image ' src={ShrinkURLImage} alt='Shrinkify screenshot'/>
                             </a>
-                            <p className='font-weight-bold text-center project-name'>shrinkURL</p>
+                            <p className='font-weight-bold text-center project-name'>Shrinkify</p>
                             <Row className='d-flex flex-wrap align-items-center justify-content-center'>
                                 <a href='https://github.com/DeonChoi/shrinkURL' target='_blank' rel="noopener noreferrer">
                                 <img className='repo-icon' src={GitHubIcon} alt='GitHub Icon'/>
