@@ -20,7 +20,6 @@ class About extends React.Component {
                 <div className='overlay-layer'></div>
                 <Col xl={{span: 8, offset: 4}} lg={{span: 9, offset: 3}} md={{span: 11, offset: 1}} sm={{span: 10, offset: 2}} xs={{span: 10, offset: 2}} className='primary font-weight-bold about-container d-flex flex-column justify-content-end text-right'>
                     <p className='about-title'>About Me</p>
-               
                     <p className='about-description text-justify'>
                         Hi, my name is Deon Choi. 
                         I graduated from <a className='about-link' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
