@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const timerAlert = setTimeout(() => {
-      alert('Press OK to redirect to new website -> https://deonchoi.com/')
+      alert('Press OK/CLOSE to redirect to new website -> https://deonchoi.com/')
       window.location.href = 'https://deonchoi.com/';
     }, 1500);
     // const redirectAlert = setTimeout(() => {
